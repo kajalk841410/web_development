@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box model</title>
+    <style>
+        
+        *{
+            box-sizing: border box;
+            margin:0;
+            padding:0;
+
+        }
+        body{
+            background-color: rgb(182, 141, 173) ;
+
+        }
+        
+        .container{
+            background-color: hsla(32, 100%, 88%, 0.363);
+            border: 3px solid rgb(83, 2, 189);
+            /*we can set margin/padding for top,bottom,left abd right like this*/
+            /* padding-top :79px;
+            padding-bottom:79px;
+            padding-left:34px;
+            padding-right:79px;*/
+
+            padding: 34px 19px;
+            margin:14px 19px;
+            border-radius:23px;
+            width:433px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h3>this is my heading</h3>
+        <p id="first">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+             Pariatur, quas impedit? Eveniet, culpa neque repellendus quisquam
+              laudantium ipsam sequi nisi incidunt aliquam impedit!</p>
+    </div>
+    <div class="container">
+        <h3>this is my heading</h3>
+        <p id="second">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+             Pariatur, quas impedit? Eveniet, culpa neque repellendus quisquam
+              laudantium ipsam sequi nisi incidunt aliquam impedit!</p>
+    </div>
+    <div class="container">
+        <h3>this is my heading</h3>
+        <p id="third">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+             Pariatur, quas impedit? Eveniet, culpa neque repellendus quisquam
+              laudantium ipsam sequi nisi incidunt aliquam impedit!</p>
+    </div>
+    
+    
+</body>
+</html>
