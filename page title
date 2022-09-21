@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Title</title>
+    <style>
+        div{
+            border: 2px outset brown;
+            background-color: blanchedalmond;
+            width: 150px;
+            height: 200px;
+            margin: 15px;
+            padding: 10px;
+            float: left;
+            box-shadow: 8px 15px 10px darkgreen;
+            overflow: auto;
+        }
+        div:hover{
+            border: 10px outset dark goldenrod;
+            box-shadow: 8px 15px 10px darksalmon;
+        }
+        img{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width:50%;
+            border: 2px outset brown;
+        }
+        img:hover{
+            border:5px outset brown;
+        }
+        .bcolor{
+            background-color: darkturquoise;
+
+        }</style>
+</head>
+<body>
+    <h1>BCA</h1>
+    <p>Internrt Technology</p>
+    <div>
+        <p>HTML</p>
+    </div>
+    <div class="bcolor" >
+        <p>CSS</p>
+    </div>
+    <div>
+        <p>JAVASCRIPT</p>
+    </div>
+    <div class="bcolor">
+        <p>JQUERY</p>
+    </div>
+    
+</body>
+</html>
