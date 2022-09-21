@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+   
+</head>
+<body bgcolor="orange,blue,red">
+    <h3 align="center">Study of form tag</h3>
+    <h2 align="center"><u>STUDENT REGISTRATION FORM</u></h2>
+    <form action="abc.html"name="f"method="post"autocomplate="on"></form>
+    <table width="200"border="1">
+        <tr>
+            <th>FirstName:</th><td><input type="text"name="id1"id="id1"size="30"maxlength="20"/></td>
+            </tr>
+            <tr>
+            <th>LastName:</th><td><input type="text"name="id2"id="id2"size="30"maxlength="20"/></td>
+            </tr>
+            <tr>
+            <th>valid Email:</th><td><input type="text"name="id3"id="id3"size="70"maxlength="50"/></td>
+            </tr>
+            <tr>
+            <th>Password:</th><td><input type="text"name="id4"id="id4"size="50"maxlength="10"/></td>
+        </tr>
+        <tr>
+            <th>PhoneNumber:</th>
+            <td><input type="text"name="id5"id="id5" size="30" maxlength="11"/></td>
+        </tr>
+        <tr>
+            <th>Address:</th>
+            <td><textarea cols="50" rows="6"name="addr"></textarea></td>
+        </tr>
+        <tr>
+            <th>Gender:</th>
+            <td><b>Male:</b>
+                <input type="radio"name="gender"id="r1"value="male"/>
+                <b>Female:</b>
+                <input type="radio"name="gender"id="r1"value="female"/> 
+                <b>Other:</b>
+                <input type="radio"name="gender"id="r1"value="other"/>
+            </td>
+        </tr>
+        <tr>
+            <th>Date of Birth:</th>
+            <td><input type="text"name="dob"/></td>
+        </tr>
+        <tr>
+            <th>Qualification:</th>
+            <td><b>SSC</b><input type="checkbox"name="a1"id="a1"/>
+                <b>Percentage:</b><input type="text"name="id9"id="id9"size="5"/></br>
+                <b>HSC</b><input type="checkbox"name="a1"id="a1"/>
+                <b>Percentage:</b><input type="text"name="id10"id="id10"size="5"/></br>
+                <b>BCA</b><input type="checkbox"name="a1"id="a1"/>
+                <b>Percentage:</b><input type="text"name="id11"id="id11"size="5"/></br>
+                <b>MCA</b><input type="checkbox"name="a1"id="a1"/>
+                <b>Percentage:</b><input type="text"name="id12"id="id12"size="5"/></br>
+                <b>MBA</b><input type="checkbox"name="a1"id="a1"/> 
+                <b>Percentage:</b><input type="text"name="id13"id="id13"size="5"/></br>  
+        </tr>
+        <tr>
+            <th>Experience</th><td><select name="sc1"id="sc1"size="1">
+                <option>0-1year</option> <option>2-3year</option>
+                <option>3-5year</option> <option>morethan 5year</option>
+            </select></td></tr>
+        <tr>
+            <th>Upload photo:</th> <td><input type="file"></td>
+        </tr>
+        <tr>
+            <td colspan="2"><center>
+                <input type="submit"value="submit"onClick="alert('your Application have been submitted'),"/>&nbsp;&nbsp;
+                <input type="reset"value="Reset"onClick="alert('your Applications not Submitted');"/></center>
+            </td>
+        </tr>
+        
+    </table>
+
+    
+</body>
+</html>
